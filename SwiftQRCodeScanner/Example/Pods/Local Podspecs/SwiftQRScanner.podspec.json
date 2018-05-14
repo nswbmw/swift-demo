@@ -1,8 +1,8 @@
 {
   "name": "SwiftQRScanner",
-  "version": "0.1.0",
-  "summary": "A short description of SwiftQRScanner.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.4",
+  "summary": "Read QR Codes using SwiftQRScanner",
+  "description": "Read QR codes using SwiftQRScanner with easy steps.",
   "homepage": "https://github.com/vinodiOS/SwiftQRScanner",
   "license": {
     "type": "MIT",
@@ -13,10 +13,20 @@
   },
   "source": {
     "git": "https://github.com/vinodiOS/SwiftQRScanner.git",
-    "tag": "0.1.0"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SwiftQRScanner/Classes/**/*"
+  "source_files": "Classes/**/*",
+  "resource_bundles": {
+    "SwiftQRScanner": [
+      "SwiftQRScanner/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "CoreGraphics",
+    "AVFoundation"
+  ]
 }

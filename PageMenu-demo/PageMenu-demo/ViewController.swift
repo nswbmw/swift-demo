@@ -15,6 +15,8 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    self.navigationItem.title = "Test"
+    
     var controllerArray : [UIViewController] = []
     
     let controller : UIViewController = UIViewController(nibName: "1", bundle: nil)

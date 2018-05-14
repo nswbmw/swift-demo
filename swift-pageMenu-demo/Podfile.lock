@@ -1,0 +1,21 @@
+PODS:
+  - PageMenu (2.0.0)
+
+DEPENDENCIES:
+  - PageMenu (from `https://github.com/JaceTan/PageMenu`)
+
+EXTERNAL SOURCES:
+  PageMenu:
+    :git: https://github.com/JaceTan/PageMenu
+
+CHECKOUT OPTIONS:
+  PageMenu:
+    :commit: b188931e796326d4ecc780b6dbe262b2e2c19c7b
+    :git: https://github.com/JaceTan/PageMenu
+
+SPEC CHECKSUMS:
+  PageMenu: 50134deb498b120cfcd086fee1bce35a4b2f9c81
+
+PODFILE CHECKSUM: 0638b7b68c0223b729ebf9f15bea83cb86aa3ac3
+
+COCOAPODS: 1.5.0.beta.1
